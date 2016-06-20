@@ -4,11 +4,11 @@ import pandas as pd
 from sklearn import datasets
 from sklearn.cross_validation import train_test_split
 from sklearn import metrics
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.grid_search import GridSearchCV
+##from sklearn.tree import DecisionTreeRegressor
+##from sklearn.grid_search import GridSearchCV
 from sklearn.cross_validation import cross_val_score
 from sklearn.neighbors import KNeighborsRegressor as KNR
-from sklearn import svm
+##from sklearn import svm
 
 
 face_data = pd.read_csv("training.csv")
